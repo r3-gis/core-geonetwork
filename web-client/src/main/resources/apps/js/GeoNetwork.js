@@ -10567,7 +10567,7 @@ return{xtype:"fieldset",title:"Harvester main information",collapsible:true,item
 var f=new Ext.form.Checkbox({id:"options_createthumbnails",name:"options_createthumbnails",mode:"local",fieldLabel:"Create thumbnail for WMS layers"});
 var e=new Ext.form.Checkbox({id:"options_uselayer",name:"options_uselayer",mode:"local",fieldLabel:"Create metadata for layer elements using GetCapabilities information"});
 var f=new Ext.form.Checkbox({id:"options_uselayermd",name:"options_uselayermd",mode:"local",fieldLabel:"Create metadata for layer elements using MetadataURL attributes (if existing, if not use GetCapabilities)"});
-var d=new Ext.form.TextField({id:"options_lang",name:"options_lang",mode:"local",defaultValue:"eng",fieldLabel:"Language"});
+var d=new Ext.form.TextField({id:"options_lang",name:"options_lang",mode:"local",defaultValue:"ita",fieldLabel:"Language"});
 var c=new Ext.form.TextField({id:"options_topic",name:"options_topic",mode:"local",defaultValue:"",fieldLabel:"Topic category"});
 b.push(f,e,f,d,c);
 var a=new Ext.form.Checkbox({id:"options_onerunonly",name:"options_onerunonly",mode:"local",fieldLabel:"One run only"});

@@ -12,7 +12,7 @@ OpenLayers.Lang.it = {
 
     'unhandledRequest': "Codice di ritorno della richiesta ${statusText}",
 
-    'Permalink': "Permalink",
+    'Permalink': "Link permanente",
 
     'Overlays': "Overlays",
 
@@ -62,6 +62,13 @@ OpenLayers.Lang.it = {
 
     'Scale = 1 : ${scaleDenom}': "Scala = 1 : ${scaleDenom}",
 
+    //labels for the graticule control
+    'W': 'O',
+    'E': 'E',
+    'N': 'N',
+    'S': 'S',
+    'Graticule': 'Reticolo',
+    
     // console message
     'reprojectDeprecated':
         "Stai utilizzando l'opzione 'reproject' sul livello ${layerName}. " +
